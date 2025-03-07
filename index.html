@@ -14,9 +14,6 @@
   <!-- Viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Theme switcher (color modes) -->
-  <!-- <script src="assets/js/theme-switcher.js"></script> -->
-
   <!-- Favicon and Touch Icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
@@ -138,9 +135,7 @@
   </script>
 </head>
 
-
 <!-- Body -->
-
 <body>
 
   <!-- Page loading spinner -->
@@ -150,21 +145,15 @@
     </div>
   </div>
 
-
   <!-- Page wrapper for sticky footer -->
-  <!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
   <main class="page-wrapper">
 
     <!-- Navbar -->
-    <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
     <header class="header-main header navbar navbar-expand-lg navbar-dark position-absolute navbar-sticky"
       w3-include-HTML="_header.html"></header>
 
-
     <!-- Hero + BG parallax -->
-    <section class="jarallax bg-dark min-vh-100" data-jarallax data-speed="0.4" data-bs-theme="dark">
-      <!-- <span class="position-absolute top-0 start-0 w-100 h-100"></span>
-      <div class="jarallax-img" style="background-image: url(assets/img/landing/software-agency-2/hero-bg.png);"></div> -->
+    <section class="hero-home jarallax bg-dark min-vh-100" data-jarallax data-speed="0.4" data-bs-theme="dark">
       <video class="home-video" playsinline autoplay loop muted>
         <source src="assets/video/geo-symmetry.mp4" type="video/mp4" />
       </video>
@@ -173,20 +162,18 @@
         <div class="container position-relative text-center zindex-5 py-5 px-4"
           style="background: rgba(0, 0, 0, .80); margin-top: 15%">
           <div class="row">
-            <div class="col-xl-10 mx-auto">
-              <!-- <h1 class="display-1 mb-md-4 pb-3">Information Assurance</h1> -->
-
+            <div class="col-xl-10 mx-auto">              
               <div class="container pb-lg-2 pb-xl-3">
-                <ul class="fw-bold fs-5 d-flex align-items-start justify-content-center flex-wrap text-nowrap mb-2">
-                  <li class="d-flex align-items-center text-body ms-md-4 ms-3">
+                <ul class="fw-bold fs-5 d-flex align-items-start justify-content-center flex-wrap text-nowrap mb-2 ps-0">
+                  <li class="d-flex align-items-center text-body me-0 me-sm-3 me-md-4">
                     <i class="bx bx-check-circle me-2 fs-5 text-primary"></i>
                     Innovate with Confidence
                   </li>
-                  <li class="d-flex align-items-center text-body ms-md-4 ms-3">
+                  <li class="d-flex align-items-center text-body me-0 me-sm-3 me-md-4">
                     <i class="bx bx-check-circle me-2 fs-5 text-primary"></i>
                     Amplify Resilience
                   </li>
-                  <li class="d-flex align-items-center text-body ms-md-4 ms-3">
+                  <li class="d-flex align-items-center text-body me-0 me-sm-3 me-md-4">
                     <i class="bx bx-check-circle me-2 fs-5 text-primary"></i>
                     Empower Using Data
                   </li>
@@ -203,51 +190,16 @@
                 <p class="text-body mb-0 fs-5">IAS has demonstrated experience in successfully providing expert teams of professionals who
                   bring uncompromising integrity, technical acumen, and real-world experience to deliver tangible
                   outcomes.</p>
-              </div>
-              <!-- <a href="#" class="btn btn-lg btn-primary shadow-primary">Start your project</a> -->
-              <!-- <div class="container pb-lg-2 pb-xl-3">
-                <ul class="list-unstyled d-flex align-items-start justify-content-center flex-wrap text-nowrap">
-                  <li class="d-flex align-items-center text-body mt-md-4 mt-sm-3 mt-2 ms-md-4 ms-3">
-                    <i class="bx bx-check-circle me-2 fs-5 text-primary"></i>
-                    Innovate with Confidence
-                  </li>
-                  <li class="d-flex align-items-center text-body mt-md-4 mt-sm-3 mt-2 ms-md-4 ms-3">
-                    <i class="bx bx-check-circle me-2 fs-5 text-primary"></i>
-                    Amplify Resilience
-                  </li>
-                  <li class="d-flex align-items-center text-body mt-md-4 mt-sm-3 mt-2 ms-md-4 ms-3">
-                    <i class="bx bx-check-circle me-2 fs-5 text-primary"></i>
-                    Empower Using Data
-                  </li>
-                </ul>
-              </div> -->
+              </div>              
             </div>
           </div>
         </div>
 
       </div>
-    </section>
-
-    <!-- About -->
-    <!-- <section>      
-      <div class="container pb-4 pt-5">
-        <div class="row pb-5 mb-lg-2">
-          <div class="col">
-            <h2 class="h1 mb-lg-4 pt-1 pt-md-4">About Us</h2>
-            <p class="fs-lg text-muted mb-0">
-              Information Assured Solutions (IAS) develops and delivers pragmatic and innovative solutions that span
-              technology enablement, and management consulting disciplines to clients across the public and commercial
-              sectors. IAS has demonstrated experience in successfully providing expert teams of professionals who bring
-              uncompromising integrity, technical acumen, and real-world experience to deliver tangible outcomes.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
+    </section>    
 
     <!-- Services -->
     <section class="pb-md-2 pb-lg-5">
-      <!-- <div class="d-none d-lg-block" style="margin-top: -60px; padding-top: 60px;"></div> -->
       <div class="container pb-4 pt-5">
         <div class="row align-items-center pb-5 mb-lg-2">
           <div class="col-md-12">
@@ -264,10 +216,7 @@
               <a href="assets/files/IAS-Capability-Statement.pdf" class="btn btn-outline-primary btn-sm"
                 target="_blank">Download Capability Statement</a>
             </p>
-          </div>
-          <!-- <div class="col-md-4 d-flex justify-content-center justify-content-md-end">
-            <a href="services-v1.html" class="btn btn-outline-primary btn-lg">See all services</a>
-          </div> -->
+          </div>          
         </div>
         <div class="row row-cols-1 row-cols-md-2">
 
@@ -278,8 +227,7 @@
               <div class="card-body pt-3">
                 <div
                   class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-2">
-                  <img src="assets/img/icon-cyber-security.png" class="d-block m-1" width="50" alt="IAS Cyber Security, Compliance, & Privacy">
-                  <!-- <i class="bx bx-check-shield bx-lg text-white"></i> -->
+                  <img src="assets/img/icon-cyber-security.png" class="d-block m-1" width="50" alt="IAS Cyber Security, Compliance, & Privacy">                  
                 </div>
                 <h2 class="h4 d-inline-flex align-items-center">
                   Cyber Security, Compliance, & Privacy
@@ -287,11 +235,7 @@
                 </h2>
                 <p class="text-body mb-0">
                   IAS delivers cybersecurity services to help clients prepare for and
-                  respond to global and local cybersecurity, compliance, and privacy challenges.
-                  <!-- Our products and
-                  services help clients assess cyber risks and security program maturity; and recommend and implement
-                  customized solutions to protect our clients' information assets that practically considers each
-                  organization's mission, people, processes, and technology. -->
+                  respond to global and local cybersecurity, compliance, and privacy challenges.                  
                 </p>
               </div>
             </a>
@@ -304,19 +248,14 @@
               <div class="card-body pt-3">
                 <div
                   class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-2">
-                  <img src="assets/img/icon-portfolio-management.png" class="d-block m-1" width="50" alt="IAS IT Portfolio Management">
-                  <!-- <i class="bx bx-briefcase bx-lg text-white"></i> -->
+                  <img src="assets/img/icon-portfolio-management.png" class="d-block m-1" width="50" alt="IAS IT Portfolio Management">                  
                 </div>
                 <h2 class="h4 d-inline-flex align-items-center">
                   IT Portfolio Management
                   <i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
                 </h2>
                 <p class="text-body mb-0">IAS delivers comprehensive IT Portfolio Management services, empowering
-                  clients to optimize technology investments.
-                  <!-- Our strategic guidance combines industry best practices
-                  and expert insights, aligning your organization's IT portfolio with business objectives. This results
-                  in cost reduction, enhanced efficiency, risk mitigation, and improved stakeholder conﬁdence through
-                  transparent portfolio management. -->
+                  clients to optimize technology investments.                  
                 </p>
               </div>
             </a>
@@ -337,11 +276,7 @@
                   <i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
                 </h2>
                 <p class="text-body mb-0">IAS supports our clients with making data useful, available, and
-                  actionable.
-                  <!-- We support complex clients with functional diversity and disparate system environments. To
-                  overcome these challenges, we develop strategies and technologies that recognize interactions between
-                  business processes, organizational roles, and business objectives to assess outcomes, and support
-                  data-driven decision-making. -->
+                  actionable.                  
                 </p>
               </div>
             </a>
@@ -363,43 +298,8 @@
                 </h2>
                 <p class="text-body">
                   IAS provides comprehensive support for federal agencies and other
-                  organizations seeking to strengthen and maintain compliance with audit and advisory requirements.
-                  <!-- Backed by years of hands-on experience and a commitment to excellence, IAS helps federal clients and
-                  other entities establish resilient internal controls, maintain operational integrity, and achieve
-                  measurable results in regulatory compliance. Our core capabilities include: -->
-                </p>
-                <!-- <ul class="mb-0">
-                  <li>
-                    <span class="fw-bold">Internal Audits</span> (including assessments performed in accordance with OMB
-                    A-123 Standards & Guidance)
-                    <p>
-                      Conducting thorough internal audits aligned with Office of Management and Budget (OMB) A-123
-                      standards, ensuring robust internal controls and compliance across federal programs and financial
-                      operations.
-                    </p>
-                  </li>
-                  <li>
-                    <span class="fw-bold">Audit Readiness</span>
-                    <p>
-                      Preparing organizations for different types of attestations, including Financial
-                      Statement audits, Federal Information Security Modernization Act (FISMA) Audits, System and
-                      Organization Controls (SOC) attestations, etc., by identifying potential gaps, formulating and
-                      supporting the implementation of corrective actions, and reinforcing existing policies and
-                      procedures to help increase the likelihood of a favorable or improved audit disposition.
-                    </p>
-                  </li>
-                  <li>
-                    <span class="fw-bold">Advisory & Remediation Services</span>
-                    <p class="mb-0">
-                      Assessing and addressing findings from internal and external reviews, developing tailored
-                      remediation strategies, and guiding organizations through corrective
-                      actions to mitigate risks and strengthen overall governance. Based on any client’s unique
-                      circumstance, IAS can assist with business process re-engineering, technology enablement
-                      solutions,
-                      or other strategies that may not have been pragmatically contemplated.
-                    </p>
-                  </li>
-                </ul> -->
+                  organizations seeking to strengthen and maintain compliance with audit and advisory requirements.                  
+                </p>                
               </div>
             </a>
           </div>
@@ -410,7 +310,6 @@
 
     <!-- Our awards -->
     <section class="position-relative py-5 bg-dark">
-      <!-- <span class="position-absolute top-0 start-0 d-dark-mode-block d-none w-100 h-100 bg-secondary"></span> -->
       <span class="position-absolute top-0 start-0 w-100 h-100"
         style="background-color: rgba(255, 255, 255, .05)"></span>
       <div class="position-relative container my-lg-5 my-md-4 my-3 py-xl-3" data-bs-theme="dark">
@@ -428,7 +327,7 @@
                 "slidesPerView": 1
               },
               "500": {
-                "slidesPerView": 2
+                "slidesPerView": 1
               },
               "768": {
                 "slidesPerView": 2
@@ -490,12 +389,10 @@
         </div>
       </div>
     </section>
-
   </main>
 
-
   <!-- Footer -->
-  <footer class="footer pt-4" w3-include-HTML="_footer.html"></footer>
+  <footer class="footer pt-5" w3-include-HTML="_footer.html"></footer>
 
 
   <!-- Back to top button -->
@@ -503,7 +400,6 @@
     <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
     <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
   </a>
-
 
   <!-- Vendor Scripts -->
   <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
