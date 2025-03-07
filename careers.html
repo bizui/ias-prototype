@@ -29,7 +29,7 @@
 
   <!-- Vendor Styles -->
   <link rel="stylesheet" media="screen" href="assets/vendor/boxicons/css/boxicons.min.css">
-  
+
   <!-- Main Theme Styles + Bootstrap -->
   <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
 
@@ -137,6 +137,7 @@
 </head>
 
 <!-- Body -->
+
 <body>
 
   <!-- Page loading spinner -->
@@ -152,25 +153,45 @@
     <header class="header-main header navbar navbar-expand-lg navbar-dark position-absolute navbar-sticky"
       w3-include-HTML="_header.html"></header>
 
-      <!-- Hero image -->
-    <div class="jarallax d-md-block" data-jarallax data-speed="0.35">
+    <!-- Hero image -->
+    <!-- <div class="jarallax d-md-block" data-jarallax data-speed="0.35">
       <span class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-primary-translucent"></span>
       <div class="jarallax-img" style="background-image: url(assets/img/careers-office.jpg);"></div>
       <div class="d-none d-xxl-block" style="height: 700px;"></div>
       <div class="d-md-block d-xxl-none" style="height: 550px;"></div>
+    </div> -->
+
+    <div class="position-relative">
+      <section class="jarallax bg-dark Xmin-vh-100" data-jarallax="" data-speed="0.4" data-bs-theme="light">
+        <div class="jarallax-img" style="background-image: url(assets/img/about-ceiling.jpg);"></div>
+        <div class="d-none d-xxl-block" style="height: 700px;"></div>
+        <div class="d-md-block d-xxl-none" style="height: 550px;"></div>
+      </section>
+      <div class="hero-container position-absolute top-0 start-0 zindex-5 py-5 w-100">
+        <div class="container text-center py-5 px-4" style="background: rgba(255, 255, 255, .95);">
+          <div class="row">
+            <div class="col-xl-10 mx-auto">
+              <div class="hero-text mx-auto">
+                <h1 class="h2 mb-lg-4">Careers</h1>
+                <p class="text-body mb-0 fs-5">
+                  We're driven by a shared mission: delivering real solutions that make a lasting impact in the organizations we serve.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- About company -->
-    <section class="container pb-5 pt-5 mb-md-2 my-lg-4">
-      <h1 class="">Careers</h1>
+    <section class="container py-5">
+      <h2 class="h3">Our Values</h2>
       <div class="row pt-2 pt-md-3">
         <div class="col-sm-10">
           <p class="fs-lg pe-lg-4 mb-1 mb-lg-4">At IAS, we invest in exceptional individuals who embody integrity, think
-            critically, and work independently to support our clients. We're driven by a shared mission: delivering real
-            solutions that make a lasting impact in the organizations we serve.
+            critically, and work independently to support our clients. 
           </p>
           <section>
-            <h2 class="h5">Our Values</h2>
             <ul>
               <li>
                 <p>
@@ -184,10 +205,12 @@
               </li>
               <li>
                 <p class="mb-0">
-                  By matching you with clients whose challenges align with your career aspirations, we help you build new
+                  By matching you with clients whose challenges align with your career aspirations, we help you build
+                  new
                   skills and leadership experience while leveraging your existing expertise. In addition, we offer
                   flexible
-                  work arrangements to support a healthy work-life balance and recognize your accomplishments with regular
+                  work arrangements to support a healthy work-life balance and recognize your accomplishments with
+                  regular
                   feedback and appreciation.
                 </p>
               </li>
@@ -201,11 +224,12 @@
               contributions,
               and make a meaningful difference every day.
             </p>
-            <a class="btn btn-primary" href="mailto:contact@informationassuredsolutions.com?subject=IAS Careers">Send an Application</a>
+            <a class="btn btn-primary" href="mailto:contact@informationassuredsolutions.com?subject=IAS Careers">Send an
+              Application</a>
           </section>
         </div>
       </div>
-    </section>   
+    </section>
   </main>
 
   <!-- Footer -->
@@ -218,7 +242,7 @@
   </a>
 
   <!-- Vendor Scripts -->
-  <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script> 
+  <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
   <script src="assets/js/include-html.js"></script>
   <!-- Main Theme Script -->
   <script src="assets/js/theme.min.js"></script>
