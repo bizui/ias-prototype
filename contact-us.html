@@ -191,7 +191,7 @@
                       <a href="mailto:contact@informationassuredsolutions.com"
                         class="nav-link d-flex align-items-center p-0">
                         <i class="bx bx-envelope fs-xl text-primary me-2"></i>
-                        contact@informationassuredsolutions.com
+                        Email
                       </a>
                     </li>
 
@@ -228,27 +228,10 @@
   </a>
 
   <!-- Vendor Scripts -->
-  <script src="assets/vendor/cleave.js/dist/cleave.min.js"></script>
   <script src="assets/js/include-html.js"></script>
 
   <!-- Main Theme Script -->
-  <script src="assets/js/theme.min.js"></script>
-
-  <script>
-    const form = document.getElementById('contactForm');
-
-    form.addEventListener('submit', function (event) {
-      event.preventDefault();
-
-      const name = document.getElementById('name').value;
-      const email = document.getElementById('email').value;
-      const message = document.getElementById('message').value;
-
-      const mailtoLink = `mailto:vizuilize@gmail.com?subject=New Contact Form Submission&body=Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
-
-      window.location.href = mailtoLink;
-    });
-  </script>
+  <script src="assets/js/theme.min.js"></script>  
 </body>
 
 </html>
